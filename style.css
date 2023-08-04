@@ -1,0 +1,45 @@
+.navbar {  
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  background-color: bisque;
+  padding: 14px;
+}
+
+.nav-items-r,
+.nav-items {
+  margin: 10px 10px;
+}
+
+.info {
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+  background-color: purple;
+  padding: 14px; 
+}
+.saga {
+  padding-top: 10px;
+  text-align: center;
+  background-color: palegoldenrod;
+}
+.saga-list {
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+  padding: 14px; 
+}
+.quote {
+  display: flex;
+  gap: 20px;
+  text-align: center;
+  background-color: dodgerblue;
+  padding: 14px; 
+}
+.more {
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+  background-color: purple;
+  padding: 14px; 
+}
