@@ -1,45 +1,104 @@
+body {
+  margin: 0px;
+}
+
+.foot {
+  margin: 0;
+  text-align: center;
+  background-color: #252b48;
+  color: white;
+  padding: 24px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #512B81;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: #AAC8A7;
+}
+
 .navbar {  
   display: flex;
   gap: 20px;
   justify-content: space-between;
-  background-color: bisque;
+  background-color: #445069;
+  color: white;
   padding: 14px;
 }
 
-.nav-items-r,
+.nav-items-r, 
 .nav-items {
-  margin: 10px 10px;
+    margin: 10px 10px;
+}
+a {
+  color: white;
+  text-decoration: none;
 }
 
 .info {
   display: flex;
   gap: 20px;
   justify-content: space-around;
-  background-color: purple;
-  padding: 14px; 
+  background-color:#252b48;
+  color: white;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.info-text {
+  padding-top: 10px;
+}
+
+.info-img {
+  border-radius: 15px;
+  height: 240px;
+  width: 420px;
 }
 .saga {
   padding-top: 10px;
   text-align: center;
-  background-color: palegoldenrod;
+  background-color: #5B9A8B;
+  color: white;
 }
 .saga-list {
   display: flex;
   gap: 20px;
   justify-content: space-around;
-  padding: 14px; 
+  padding: 24px; 
+}
+.saga-img {
+  border-radius: 15px;
+  height: 150px;
+  width: 150px;
 }
 .quote {
   display: flex;
-  gap: 20px;
   text-align: center;
-  background-color: dodgerblue;
-  padding: 14px; 
+  justify-content: center;
+  background-color: #445069;
+  color: lightgray;
+  padding: 24px; 
+}
+.quote blockquote {
+  font-size: 24px;
 }
 .more {
   display: flex;
   gap: 20px;
   justify-content: space-around;
-  background-color: purple;
-  padding: 14px; 
+  background-color: #5B9A8B;
+  color: white;
+  padding: 34px; 
+}
+.more-btn {
+  padding-top: 28px;
 }
